@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Price Estimator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+<!--YLÄPALKKI-->
+  <header class="top-bar">
+    <!--logo-->
+    <div class="logo">Car Price Estimator</div>
+
+
+    <!-- YHTEYDENOTTOLOMAKE -->
+    <div class="top-links">
+      <a href="https://github.com/krosqvist/Car-Price-Estimator-With-Random-Forest" class="top-button">GitHub</a>
+    </div>
+  </header>
+
+
+
+<!-- LAATIKKO 1 -->
+  <section class="split-block">
+
+    <!-- ORANSSI LAATIKKO: TEKSTI JA LINKIT -->
+    <div class="split-left">
+      <div class="description">
+        <h2>Check the current and future price of your car easily with our software!</h2>
+      </div>
+      <div class="invitation">
+        <h3>Link to github with the nececcities in the upright corner</h3>
+      </div>
+    </div>
+
+    <!-- KUVA OIKEALLA (desktop), YLHÄÄLLÄ (mobile) -->
+    <div class="split-right">
+      <img src="images/cockpit-2132456.jpg" alt="Kuva" />
+    </div>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('.split-block').classList.add('fade-in');
+      });
+    </script>
+  </section>
+
+  <!--SISÄLTÖ-->
+  <main class="content">
+    <h1>Description</h1>
+
+    <section>
+      <p>This software estimates the current market value of any internal combustion engine car and projects its price development up to five years into the future.
+        Powered by a random forest machine learning model, it has been trained on data from thousands of real used car sales across the UK.
+        You can download the software from our GitHub repository and run it locally on your computer by following the provided setup instructions. 
+      </p>
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+  <!-- SULAVA LATAUS -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('.content').classList.add('fade-in');
+    });
+  </script>
+
+
+<!-- ALALAITA -->
+<div class="bottom-gradient"></div>
+<div class="orange-footer"></div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
